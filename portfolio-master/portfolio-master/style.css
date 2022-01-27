@@ -1,0 +1,48 @@
+h1 {
+    color: brown;
+   
+
+}
+
+.header{
+    background-color: rgb(197, 205, 90);
+    display: flex;
+    justify-content: space-between;
+}
+
+body{
+    background-color:#d011b7
+}
+p,h2{
+    text-align: center;
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+}
+a:link{
+    color:teal
+}
+a:visited{
+    color:white
+}
+.item{
+    position:relative
+}
+.item p{
+    position:absolute;
+    top:40%;
+    left:30%;
+    opacity:0
+}
+.item:hover img{
+    opacity:0.33
+}
+.item:hover p{
+    opacity:1
+}
